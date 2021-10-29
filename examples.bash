@@ -74,6 +74,6 @@ Example_3()
 examples=();
 examples+=("Example_1: Colorful example.");
 examples+=("Example_2: Concise one, checkout");
-examples+=("Example_3: A bit more complicated.");
+examples+=("Example_3: A bit more complicate.");
 options.select examples "Which example to run?"
 ${SELECTED%%:*}
